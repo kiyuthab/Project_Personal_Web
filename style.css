@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box
+}
+
+/* header */
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: #222831;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #F85F73;
+}
+
+.active {
+    color: #F85F73;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #222831;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #F85F73;
+    transition: .4s;
+}
+/* header end */
+
+/* content 1 */
+.content1 {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #222831;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+
+h3 {
+    color: #222831;
+    font-size: 20px;
+}
+
+h4 {
+    color: #364F6B;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/* content 1 end */
+
+/* about */
+.about img {
+    height: auto;
+    width: 350px;
+    margin-top: 70px;
+    border-radius: 100%;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: #222831;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 50px    ;
+}
+
+.about-text h5 {
+    color: #222831;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+} 
+
+.about-text p {
+    color: #222831;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* about end */
+
+/* learning resources*/
+.learning {
+    width: 1130px;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.learning h3 {
+    color: #222831;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img { 
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.gallery {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+  
+.images {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.name {
+	color: #222831;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.name .button {
+    background-color: #FFB6B6;
+    color: #222831;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 3px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.name .button:hover {
+    background-color: transparent;
+    border: 2px solid #FFB6B6;
+    cursor: pointer;
+}
+/* learning resources end*/
+
+/* portofolio */
+.portofolio {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.title h2 {
+    color: #222831;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.card {
+    height: 200px;
+    width: 250px;
+    padding: 20px 35px;
+    background: #FDE2E2;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #CDF0EA;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card i {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 50px 0px;
+    color: #F85F73;
+}
+
+.card h5 {
+    color: #222831;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card .button {
+    background-color: #FFB6B6;
+    color: #222831;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 3px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #FFB6B6;
+    cursor: pointer;
+}
+.pra p {
+    text-align: center;
+    margin-top: 8px;
+}
+/* portofolio end */
